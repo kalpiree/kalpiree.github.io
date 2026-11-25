@@ -1,0 +1,449 @@
+{
+  "name": "Nitin Bisht",
+  "profile": "My research focuses on the statistical foundations of trustworthy machine learning, with applications to recommender systems and large language models. I am particularly interested in uncertainty quantification, statistical risk control, and continual learning under distribution shifts.",
+  "email": "nitin.bisht@student.uts.edu.au",
+  "linkedin": "https://www.linkedin.com/in/nitin-bisht-060b3b133",
+  "updated": "November 2026",
+  "publications": [
+    {
+      "id": "frag",
+      "year": 2027,
+      "type": "reviewed",
+      "title": "FRAG: Fair Retrieval-Augmented Generation for LLM-based Sequential Recommendation",
+      "authors": [
+        "Tong Zhang",
+        "Nitin Bisht",
+        "Zihao Li",
+        "Xianzhi Wang",
+        "Xiuwen Gong",
+        "Guandong Xu"
+      ],
+      "venue": "WSDM 2027",
+      "note": "Accepted for oral presentation",
+      "links": [],
+      "summary": "LLM recommenders can repeatedly give some groups of items too little visibility. FRAG tracks this imbalance and changes which items the model considers next, improving exposure for overlooked groups while keeping recommendations relevant.",
+      "tags": "LLM retrieval fairness recommendation"
+    },
+    {
+      "id": "align",
+      "year": 2026,
+      "type": "reviewed",
+      "title": "ALIGN-Rec: Continual Recommendation under Heterogeneous Unlearning Requests",
+      "authors": [
+        "Nitin Bisht",
+        "Sumit Bisht",
+        "Tong Zhang",
+        "Yu Yang",
+        "Huan Huo",
+        "Guandong Xu"
+      ],
+      "venue": "NeurIPS 2026",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://openreview.net/forum?id=L8dS5AKSwG"
+        }
+      ],
+      "summary": "When a recommender keeps learning, information a user asked it to forget can start influencing its predictions again. ALIGN-Rec controls later updates so the system can learn from new activity while limiting the return of deleted information, without retraining from scratch.",
+      "tags": "continual learning machine unlearning privacy recommendation"
+    },
+    {
+      "id": "mida",
+      "year": 2026,
+      "type": "reviewed",
+      "title": "MIDA: Multi-Interest Decoding with Adaptive Aggregation for Session-based Recommendation",
+      "authors": [
+        "Linjiang Guo*",
+        "Nitin Bisht*",
+        "Shiqing Wu",
+        "Guandong Xu"
+      ],
+      "venue": "IEEE TKDE · Accepted September 2026",
+      "note": "Co-first author",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2610.34192"
+        },
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1109/TKDE.2026.3740693"
+        }
+      ],
+      "summary": "Longer browsing sessions can make recommendations worse when models focus too heavily on recent clicks. MIDA identifies the different interests across a session and combines earlier choices with recent activity to improve the next recommendation.",
+      "tags": "session recommendation multi interest decoding"
+    },
+    {
+      "id": "care",
+      "year": 2026,
+      "type": "reviewed",
+      "title": "CARE: Adaptive Calibration for Reliable Recommendations",
+      "authors": [
+        "Nitin Bisht",
+        "Huan Huo",
+        "Xiuwen Gong",
+        "Guandong Xu"
+      ],
+      "venue": "ICML 2026",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://proceedings.mlr.press/v306/bisht26b.html"
+        }
+      ],
+      "summary": "People's interests change, so recommendations can become less reliable after a model is deployed. CARE tracks these changes and adjusts how many items it recommends, keeping lists compact with statistical guarantees on recommendation quality.",
+      "tags": "uncertainty calibration risk control distribution shift"
+    },
+    {
+      "id": "coral",
+      "year": 2026,
+      "type": "reviewed",
+      "title": "CORAL: Uncertainty-Aware Regulation of Exposure Concentration in Recommender Systems",
+      "authors": [
+        "Nitin Bisht",
+        "Linjiang Guo",
+        "Xiuwen Gong",
+        "Huan Huo",
+        "Guandong Xu"
+      ],
+      "venue": "ICML 2026",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://proceedings.mlr.press/v306/bisht26a.html"
+        }
+      ],
+      "summary": "Uses uncertainty-aware risk estimates to regulate exposure concentration over repeated recommendations.",
+      "tags": "risk control fairness sequential decision exposure"
+    },
+    {
+      "id": "scau",
+      "year": 2026,
+      "type": "reviewed",
+      "title": "SCAU-REC: Subspace-Constrained Adapter Updates for LLM-Based Recommendations",
+      "authors": [
+        "Tong Zhang",
+        "Nitin Bisht",
+        "Chongjun Xia",
+        "Xianzhi Wang",
+        "Jing Long",
+        "Guandong Xu"
+      ],
+      "venue": "CIKM 2026",
+      "note": "Oral presentation",
+      "links": [
+        {
+          "label": "Conference program",
+          "url": "https://cikm2026.diag.uniroma1.it/cikm-program/CIKM2026_program.html"
+        }
+      ],
+      "summary": "Detects preference shifts and constrains adapter updates to reduce interference with retained preferences.",
+      "tags": "LLM parameter efficient adapters recommendation"
+    },
+    {
+      "id": "midsequence",
+      "year": 2026,
+      "type": "reviewed",
+      "title": "Diagnosing and Mitigating Mid-Sequence Degradation in Recommender Systems",
+      "authors": [
+        "Linjiang Guo",
+        "Nitin Bisht",
+        "Shiqing Wu",
+        "Huan Huo",
+        "Xianzhi Wang",
+        "Guandong Xu"
+      ],
+      "venue": "SIGIR 2026",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1145/3805712.3809738"
+        }
+      ],
+      "tags": "session recommendation sequence"
+    },
+    {
+      "id": "ensur",
+      "year": 2025,
+      "type": "reviewed",
+      "title": "ENSUR: Equitable and Statistically Unbiased Recommendation",
+      "authors": [
+        "Nitin Bisht",
+        "Xiuwen Gong",
+        "Guandong Xu"
+      ],
+      "venue": "ICML 2025",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://proceedings.mlr.press/v267/bisht25a.html"
+        }
+      ],
+      "tags": "uncertainty fairness risk control recommendation"
+    },
+    {
+      "id": "cugf",
+      "year": 2025,
+      "type": "reviewed",
+      "title": "CUGF: A Reliable and Fair Recommendation Framework",
+      "authors": [
+        "Nitin Bisht",
+        "Xiuwen Gong",
+        "Guandong Xu"
+      ],
+      "venue": "AAAI 2025",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/download/33245/35400"
+        }
+      ],
+      "tags": "fairness reliability recommendation"
+    },
+    {
+      "id": "sarrec",
+      "year": 2025,
+      "type": "reviewed",
+      "title": "SarRec: Statistically-guaranteed Augmented Retrieval for Recommendation",
+      "authors": [
+        "Tong Zhang",
+        "Nitin Bisht",
+        "Zihao Li",
+        "Guandong Xu",
+        "Xianzhi Wang"
+      ],
+      "venue": "CIKM 2025",
+      "links": [
+        {
+          "label": "DOI",
+          "url": "https://doi.org/10.1145/3746252.3761054"
+        }
+      ],
+      "tags": "retrieval statistical guarantees recommendation"
+    },
+    {
+      "id": "cpll",
+      "year": 2025,
+      "type": "reviewed",
+      "title": "Conformal Prediction for Partial Label Learning",
+      "authors": [
+        "Xiuwen Gong",
+        "Nitin Bisht",
+        "Guandong Xu"
+      ],
+      "venue": "AAAI 2025",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://ojs.aaai.org/index.php/AAAI/article/download/33853/36008"
+        }
+      ],
+      "tags": "uncertainty conformal prediction partial label learning"
+    },
+    {
+      "id": "labelsmoothing",
+      "year": 2024,
+      "type": "reviewed",
+      "title": "Does Label Smoothing Help Deep Partial Label Learning?",
+      "authors": [
+        "Xiuwen Gong",
+        "Nitin Bisht",
+        "Guandong Xu"
+      ],
+      "venue": "ICML 2024",
+      "note": "Oral presentation",
+      "links": [
+        {
+          "label": "Paper",
+          "url": "https://proceedings.mlr.press/v235/gong24b.html"
+        }
+      ],
+      "tags": "partial label learning classification"
+    },
+    {
+      "id": "saver",
+      "year": 2026,
+      "type": "preprint",
+      "title": "SAVER: Sequential Anytime-Valid Editing Risk-control in Large Language Models",
+      "authors": [
+        "Nitin Bisht",
+        "Yu Yang",
+        "Huan Huo",
+        "Guandong Xu"
+      ],
+      "venue": "Under review · ICLR 2027",
+      "links": [
+        {
+          "label": "Preprint",
+          "url": "https://openreview.net/forum?id=ElpQeeyTLm"
+        }
+      ],
+      "summary": "Monitors the effects of sequential knowledge edits through generality and locality probes, with anytime-valid statistical risk control.",
+      "tags": "LLM knowledge editing statistical risk control sequential testing"
+    },
+    {
+      "id": "crest",
+      "year": 2026,
+      "type": "preprint",
+      "title": "CREST: Calibrated LLM-Based Recommendation with Statistical Promotion Control",
+      "authors": [
+        "Nitin Bisht",
+        "Tong Zhang",
+        "Sumit Bisht",
+        "Yu Yang",
+        "Huan Huo",
+        "Guandong Xu"
+      ],
+      "venue": "Under review · ICLR 2027",
+      "links": [
+        {
+          "label": "Preprint",
+          "url": "https://openreview.net/forum?id=1bhqIZcbQ5"
+        }
+      ],
+      "summary": "Controls manipulation-induced promotion in LLM-based recommendation using calibrated statistical screening.",
+      "tags": "LLM adversarial robustness manipulation calibration recommendation"
+    },
+    {
+      "id": "taper",
+      "year": 2026,
+      "type": "preprint",
+      "title": "Beyond Input Screening: Pre-Commit Control of Unknown-Target Item Promotion in Continual Recommendation",
+      "authors": [
+        "Nitin Bisht",
+        "Tong Zhang",
+        "Yu Yang",
+        "Huan Huo",
+        "Guandong Xu"
+      ],
+      "venue": "Under review · AAAI 2027",
+      "links": [],
+      "tags": "TAPER-Rec security poisoning continual learning recommendation"
+    },
+    {
+      "id": "firm",
+      "year": 2026,
+      "type": "preprint",
+      "title": "Should Every User Interaction Equally Matter? Risk-Controlled Weighting for Black-Box Continual Recommendation",
+      "authors": [
+        "Tong Zhang",
+        "Nitin Bisht",
+        "Chongjun Xia",
+        "Zihao Li",
+        "Xianzhi Wang",
+        "Guandong Xu"
+      ],
+      "venue": "Under review · AAAI 2027",
+      "links": [],
+      "tags": "FIRM risk control feedback continual learning recommendation"
+    },
+    {
+      "id": "s2car",
+      "year": 2026,
+      "type": "preprint",
+      "title": "S2-CAR: Segmentation-Supervised Complexity-Adaptive Recommendation",
+      "authors": [
+        "Linjiang Guo",
+        "Nitin Bisht",
+        "Shiqing Wu",
+        "Xianzhi Wang",
+        "Guandong Xu"
+      ],
+      "venue": "Preprint, 2026",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2606.25415"
+        }
+      ],
+      "summary": "Segments interaction histories at changes in user intent and combines the segments into adaptive multi-interest representations.",
+      "tags": "session recommendation intent segmentation"
+    },
+    {
+      "id": "trust",
+      "year": 2026,
+      "type": "preprint",
+      "title": "TRUST: Item-Calibrated Interval Evidence for Temporal Session-Based Recommendation",
+      "authors": [
+        "Linjiang Guo",
+        "Nitin Bisht",
+        "Shiqing Wu",
+        "Yifan Yin",
+        "Guandong Xu"
+      ],
+      "venue": "Preprint, 2026",
+      "links": [
+        {
+          "label": "arXiv",
+          "url": "https://arxiv.org/abs/2606.27214"
+        }
+      ],
+      "summary": "Calibrates time intervals against item-specific histories and uses this evidence in session-graph encoding and interest aggregation.",
+      "tags": "session recommendation time intervals calibration"
+    },
+    {
+      "id": "does",
+      "year": 2026,
+      "type": "preprint",
+      "title": "DOES: Data Fusion for Debiasing Recommendations under Hidden Confounding",
+      "authors": [
+        "Wenli Wang",
+        "Nitin Bisht",
+        "Yu Yang",
+        "Xiaofeng Meng",
+        "Guandong Xu"
+      ],
+      "venue": "Manuscript, 2026",
+      "links": [],
+      "summary": "Combines two confounded observational datasets to calibrate propensity estimates for recommendation.",
+      "tags": "causal inference debiasing hidden confounding data fusion"
+    },
+    {
+      "id": "oneformany",
+      "year": 2026,
+      "type": "preprint",
+      "title": "One for Many: Budget-Adaptive Efficient LLM-based Recommendation",
+      "authors": [
+        "Linjiang Guo",
+        "Nitin Bisht",
+        "Guandong Xu"
+      ],
+      "venue": "Under review · The Web Conference 2027",
+      "links": [],
+      "tags": "LLM recommendation efficiency budget"
+    },
+    {
+      "id": "bundle",
+      "year": 2026,
+      "type": "preprint",
+      "title": "LLM-Based Bundle Recommendations with Statistical Guarantees",
+      "authors": [
+        "Tong Zhang",
+        "Nitin Bisht",
+        "Xiuwen Gong"
+      ],
+      "venue": "Under review · The Web Conference 2027",
+      "links": [],
+      "tags": "LLM bundle recommendation statistical guarantees"
+    },
+    {
+      "id": "topadaptive",
+      "year": 2025,
+      "type": "preprint",
+      "title": "Guaranteed Top-Adaptive-K in Recommendation",
+      "authors": [
+        "Nitin Bisht",
+        "Xiuwen Gong",
+        "Guandong Xu"
+      ],
+      "venue": "Accepted at IJCAI 2025",
+      "links": [
+        {
+          "label": "Preprint PDF",
+          "url": "https://ijcai-preprints.s3.us-west-1.amazonaws.com/2025/1596.pdf"
+        }
+      ],
+      "tags": "K-Adapt Top-Adaptive-K conformal prediction recommendation set size"
+    }
+  ]
+}
