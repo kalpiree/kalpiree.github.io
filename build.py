@@ -138,7 +138,6 @@ publications=f'''
 {publication_list("reviewed")}
 </section>
 <section id="preprints" class="publication-section">{heading("Preprints and manuscripts")}
-<p class="section-note">Submission venues are shown where applicable.</p>
 {publication_list("preprint")}
 </section>
 <p class="empty-results" id="empty-results" hidden>No matching publications. Try another title, author, venue or topic.</p>
